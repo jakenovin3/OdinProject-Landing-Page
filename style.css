@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #f76f65;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pizza-logo {
+    height: 90px;
+    width: 90px;
+    padding-right: 45px;
+}
+
+.summary {
+    background-color: #f76f65;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hook {
+    width: 40%;
+}
+
+.summary > img {
+    width: 350px;
+    height: 300px;
+}
+
+.information {
+    background-color: #f7d09c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-header {
+    margin-bottom: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-container {
+    display: flex;
+    gap: 75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card {
+    border: #f76f65 solid 4px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: normal;
+    text-align: center;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card > img {
+    width: 50%;
+    height: 50%;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.quote {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.quote > p {
+    position: relative;
+    left: 275px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sign-up-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7d09c;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sign-up-info > p {
+    padding-right: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+    background-color: #f76f65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
